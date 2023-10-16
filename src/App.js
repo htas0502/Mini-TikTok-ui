@@ -3,7 +3,10 @@ import Video from './components/Video';
 
 function App() {
   return (
-    <div className="App">
+    <div className="flex flex-col items-center">
+      <Video />
+      <Video />
+      <Video />
       <Video />
     </div>
   );
